@@ -26,7 +26,7 @@ then show the admob banner at bottom center of screen.<br/>
 
 var admob:Admob=Admob.getInstance();
 admob.setKeys("your banner id");
-admob.showBanner(Admob.BANNER,AdmobPosition.BOTTOM_CENTER);
+admob.showBanner(Admob.SMART_BANNER,AdmobPosition.BOTTOM_CENTER);
 ```
 
 3.create and show interstitial.<br/>
