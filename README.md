@@ -25,7 +25,7 @@ then show the admob banner at bottom center of screen.<br/>
 ```
 
 var admob:Admob=Admob.getInstance();
-admob.setKeys("a152834c2b8cce6");
+admob.setKeys("your banner id");
 admob.showBanner(Admob.BANNER,AdmobPosition.BOTTOM_CENTER);
 ```
 
@@ -35,7 +35,7 @@ and the second ID is interstitial ID. then call cacheInterstitial to load ad,<br
 if load success isInterstitialReady return will true,call showInterstitial  to show full screen ad<br/>
 ```
 var admob:Admob=Admob.getInstance();
-admob.setKeys("ca-app-pub-17380930385764784/6322941144","ca-app-pub-17380930385764874/4846207943");////replace this fake ID with your really ID
+admob.setKeys("your admob banner","your admob institial");////replace this fake ID with your really ID
 if (admob.isInterstitialReady())// check ad has cached ,if true show it
 {
      admob.showInterstitial();
