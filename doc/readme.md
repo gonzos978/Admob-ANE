@@ -38,7 +38,7 @@ else
 ```
 var extraParam:ExtraParameter=new ExtraParameter();
 extraParam.isChildApp=true;
-extraParam.testDeviceID="C10FA0762720A0FD0E64FE3825A8B64F";
+extraParam.testDeviceID="test device id";
 
 var admob:Admob=Admob.getInstance();
 admob.setKeys("banner id");
