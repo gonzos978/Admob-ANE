@@ -29,7 +29,7 @@ very easy to use ,just three line code for simple usage
 ===simple banner usage:===
 {{{
 var admob:Admob=Admob.getInstance();
-admob.setKeys("a152834c8723912");
+admob.setKeys("banner id");
 admob.showBanner(Admob.BANNER,AdmobPosition.BOTTOM_CENTER);
 }}}
 
