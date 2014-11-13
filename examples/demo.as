@@ -15,12 +15,10 @@ package
 	
 	public class demo extends Sprite
 	{ 
-		//android
-		public var fullID:String="ca-app-pub-1738093038576474/6322941144";
-		public var bannerID:String="ca-app-pub-1738093038576474/4846207943";
-		//ios
-//		public var fullID:String="ca-app-pub-1738093038576474/1753140742";
-//		public var bannerID:String="ca-app-pub-1738093038576474/9276407547";
+		
+		public var fullID:String="institial id";
+		public var bannerID:String="banner id";
+		
 		public var xkey:TextField=new TextField();
 		public var ykey:TextField=new TextField();
 		public var typekey:TextField=new TextField();
