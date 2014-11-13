@@ -41,7 +41,7 @@ extraParam.isChildApp=true;
 extraParam.testDeviceID="C10FA0762720A0FD0E64FE3825A8B64F";
 
 var admob:Admob=Admob.getInstance();
-admob.setKeys("a152834c2b8cce6");
+admob.setKeys("banner id");
 admob.showBannerAbsolute(Admob.BANNER,0,100,extraParam);
 ```
 ###for android.  you need add in application-app.xml
