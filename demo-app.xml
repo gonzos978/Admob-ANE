@@ -16,7 +16,7 @@
 	<text xml:lang="ja">Japanese App name goes here</text>
 	</name>
 -->
-<application xmlns="http://ns.adobe.com/air/application/14.0">
+<application xmlns="http://ns.adobe.com/air/application/15.0">
   <id>so.cuo.demo</id>
   <versionNumber>1.0</versionNumber>
   <filename>demo</filename>
@@ -45,6 +45,7 @@
 			    <uses-permission android:name="android.permission.INTERNET"/>
 			    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 			    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+			    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 			    <application>
 			    <meta-data
             android:name="com.google.android.gms.version"
